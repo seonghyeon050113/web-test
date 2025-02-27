@@ -4,7 +4,7 @@
   "https://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 	<settings>
-		<setting name="mapUnderscoreToCamelCase" value="ture" />
+		<setting name="mapUnderscoreToCamelCase" value="true" />
 		<setting name="callSettersOnNulls" value="true" />
 	</settings>
 	<environments default="development">
@@ -19,8 +19,6 @@
 		</environment>
 	</environments>
 	<mappers>
-		<mapper resource="mybatis/mapper/FoodInfoMapper.xml" />
 		<mapper resource="mybatis/mapper/UserInfoMapper.xml" />
-		<mapper resource="mybatis/mapper/GameInfoMapper.xml" />
 	</mappers>
 </configuration>
