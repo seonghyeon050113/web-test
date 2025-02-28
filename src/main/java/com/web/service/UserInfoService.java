@@ -11,4 +11,16 @@ public class UserInfoService {
 	public List<UserInfoDTO> selectUserInfos(UserInfoDTO userInfo){
 		return uiRepo.selectUserInfos(userInfo);
 	}
+	public UserInfoDTO getUserInfo(int uiNum) {
+		return uiRepo.selectUserInfo(uiNum);
+	}
+	public int insertUserInfo(int uiNum) {
+		return uiRepo.selectUserInfo(uiNum);
+	}
+	public int getUserInfo(UserInfoDTO userInfo) {
+		return uiRepo.insertUserInfo(userInfo);
+	}
+	public UserInfoDTO getUserInfo(int uiNum) {
+		return uiRepo.selectUserInfo(uiNum);
+	}
 }
